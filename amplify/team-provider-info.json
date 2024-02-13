@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-4patriotstaxprovider-dev-115720-authRole",
+      "UnauthRoleArn": "arn:aws:iam::335342067272:role/amplify-4patriotstaxprovider-dev-115720-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::335342067272:role/amplify-4patriotstaxprovider-dev-115720-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-4patriotstaxprovider-dev-115720-deployment",
+      "UnauthRoleName": "amplify-4patriotstaxprovider-dev-115720-unauthRole",
+      "StackName": "amplify-4patriotstaxprovider-dev-115720",
+      "StackId": "arn:aws:cloudformation:us-east-1:335342067272:stack/amplify-4patriotstaxprovider-dev-115720/f455d030-ca90-11ee-893e-0e14f50153d3",
+      "AmplifyAppId": "d1rj0psh4auoi6"
+    }
+  }
+}
