@@ -3,9 +3,8 @@ backend:
   phases:
     build:
       commands:
-        - nvm use 18
-        - npm ci
-        - npx amplify pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
+        - '# Execute Amplify CLI with the helper script'
+        - amplifyPush --simple
 frontend:
   phases:
     preBuild:
@@ -13,7 +12,7 @@ frontend:
         - npm ci
     build:
       commands:
-        - mkdir ./dist && touch ./dist/index.html
+        - npm run build
   artifacts:
     baseDirectory: dist
     files:
